@@ -1,4 +1,4 @@
-@import "../mixins/mixins.scss";
+@use "../mixins/mixins.scss" as *;
 
 // Font styles
 .glacial {

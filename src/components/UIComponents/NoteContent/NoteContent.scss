@@ -1,4 +1,4 @@
-@import "../../../sass/mixins/mixins.scss";
+@use "../../../sass/mixins/mixins.scss" as *;
 
 .note-content {
 	.note-images {

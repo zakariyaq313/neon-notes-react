@@ -5,7 +5,7 @@ import Notes from "../icons/Notes";
 
 function HomePage(): JSX.Element {
 	const notes = useSelector((state: RootState) => state.savedNotes);
-	const pageTitle = {main: "Nightly", optional: "Notes"};
+	const pageTitle = {main: "Neon", optional: "Notes"};
 	const notesUnavailableInfo = "Anything to add?";
 	const notesUnavailableIcon = <Notes />;
 

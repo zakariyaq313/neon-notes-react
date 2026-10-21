@@ -1,6 +1,6 @@
-# **Nightly Notes (React)**
+# **Neon Notes (React)**
 
-A notes application, [originally](https://github.com/zakariyaq313/nightly-notes-vue) built with Vue, completely rebuilt using React!
+A notes application, [originally](https://github.com/zakariyaq313/neon-notes-vue) built with Vue, completely rebuilt using React!
 
 **Screenshot -**
 
@@ -36,4 +36,4 @@ View the design progression of the project [here](./src/README.md).
 **How to run in local server -**
 - `Clone` the respository
 - `npm install` - To install project dependencies
-- `npm start` - To start the development server
+- `npm run dev` - To start the development server

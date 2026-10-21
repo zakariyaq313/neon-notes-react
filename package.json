@@ -1,51 +1,33 @@
 {
-  "name": "nightly-notes-react",
-  "homepage": "https://zakariyaq313.github.io/nightly-notes-react/",
+  "name": "neon-notes-react",
+  "homepage": "https://zakariyaq313.github.io/neon-notes-react/",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.8.1",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.1",
-    "@types/node": "^16.11.29",
-    "@types/react": "^18.0.6",
-    "@types/react-dom": "^18.0.0",
-    "gh-pages": "^4.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-redux": "^8.0.1",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "sass": "^1.50.1",
-    "typescript": "^4.6.3",
-    "web-vitals": "^2.1.4"
-  },
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d dist"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "engines": {
+    "node": ">=22.12.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-redux": "^9.3.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.105.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
   }
 }
